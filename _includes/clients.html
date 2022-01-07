@@ -1,12 +1,18 @@
 <!-- Clients -->
-  <section class="py-5" id="{{ site.data.sitetext[site.locale].clients.section | default: "clients" }}">
+  <section class="page-section" id="{{ site.data.sitetext[site.locale].clients.section | default: "clients" }}">
     <div class="container">
       <div class="row" {% if site.data.sitetext[site.locale].clients.horizontal-scrolling == "yes" %} id="scrolling-clients" {% endif %}>
-	    {% for client in site.data.sitetext[site.locale].clients.list %}
-        <div class="col-md-3 col-sm-6">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">Partners</h2>
+          <h3 class="section-subheading text-muted">List of companies contributing to the project.<br>They have the expertise you might need on FusionSuite!</h3>
+        </div>
+      {% for client in site.data.sitetext[site.locale].clients.list %}
+        <div class="col-md-6 col-sm-6">
           <a href="{{ client.url }}">
             <img class="img-fluid d-block mx-auto" src="{{ client.logo }}" alt="{{ client.title }}" style="max-height: {{ site.data.sitetext[site.locale].clients.max-height | default: "100px" }}">
           </a>
+          <br>
+          <p class="text-muted" style="text-align: justify;">{{ client.desc }}</p>
         </div>
 	    {% endfor %}
       </div>

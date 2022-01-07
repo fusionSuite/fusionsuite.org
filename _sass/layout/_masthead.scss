@@ -8,8 +8,8 @@ header.masthead {
   background-position: center center;
   background-size: cover;
   .intro-text {
-    padding-top: 150px;
-    padding-bottom: 100px;
+    padding-top: 120px;
+    padding-bottom: 300px;
     .intro-lead-in {
       font-size: 22px;
       font-style: italic;
@@ -18,7 +18,7 @@ header.masthead {
       @include serif-font;
     }
     .intro-heading {
-      font-size: 50px;
+      font-size: 24px;
       font-weight: 700;
       line-height: 50px;
       margin-bottom: 25px;
@@ -29,8 +29,8 @@ header.masthead {
 @media (min-width: 768px) {
   header.masthead {
     .intro-text {
-      padding-top: 300px;
-      padding-bottom: 200px;
+      padding-top: 120px;
+      padding-bottom: 500px;
       .intro-lead-in {
         font-size: 40px;
         font-style: italic;
@@ -39,7 +39,7 @@ header.masthead {
         @include serif-font;
       }
       .intro-heading {
-        font-size: 75px;
+        font-size: 42px;
         font-weight: 700;
         line-height: 75px;
         margin-bottom: 50px;

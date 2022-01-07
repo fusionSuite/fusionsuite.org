@@ -11,20 +11,20 @@
 # -----------------
 en: &DEFAULT_EN
   nav:
-    - title: "Services"
-      section: services
-    - title: "Portfolio"
-      section: portfolio
+    - title: "Features"
+      section: features
     - title: "About"
       section: about
     - title: "Timeline"
       section: timeline
     - title: "Team"
       section: team
+    - title: "Partners"
+      section: clients
     - title: "Contact"
       section: contact
-    - title: "Theme Source"
-      url: https://github.com/raviriley/agency-jekyll-theme/
+    - title: "FusionInventory"
+      url: https://fusioninventory.org/
 en-US:
   <<: *DEFAULT_EN
 en-CA:
@@ -34,14 +34,34 @@ en-GB:
 en-AU:
   <<: *DEFAULT_EN
 
+# Français
+# -------
+fr: &DEFAULT_FR
+  nav:
+    - title: "Fonctionalités"
+      section: features
+    - title: "A propos"
+      section: about
+    - title: "Timeline"
+      section: timeline
+    - title: "Equipe"
+      section: team
+    - title: "Partenaires"
+      section: clients
+    - title: "Contact"
+      section: contact
+    - title: "FusionInventory"
+      url: https://fusioninventory.org/
+fr-FR:
+  <<: *DEFAULT_FR
+
+
 # Spanish
 # -------
 es: &DEFAULT_ES
   nav:
     - title: "Servicios"
       section: servicios
-    - title: "Portafolio"
-      section: portafolio
     - title: "Sobre Nosotros"
       section: nosotros
     - title: "Cronología"
