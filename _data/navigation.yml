@@ -5,7 +5,7 @@
 # locale: "en-US"  [YOUR PREFERRED LOCALE]
 #
 # How to use:
-# {{ site.data.navigation[site.locale].nav.<var_name> | default: 'text' }}
+# {{ site.data.navigation[page.lang].nav.<var_name> | default: 'text' }}
 
 # English (default)
 # -----------------
@@ -13,8 +13,8 @@ en: &DEFAULT_EN
   nav:
     - title: "Features"
       section: features
-    - title: "About"
-      section: about
+    - title: "Presentation"
+      url: presentation/index.html
     - title: "Timeline"
       section: timeline
     - title: "Team"
@@ -23,8 +23,6 @@ en: &DEFAULT_EN
       section: clients
     - title: "Contact"
       section: contact
-    - title: "FusionInventory"
-      url: https://fusioninventory.org/
 en-US:
   <<: *DEFAULT_EN
 en-CA:
@@ -38,10 +36,10 @@ en-AU:
 # -------
 fr: &DEFAULT_FR
   nav:
-    - title: "Fonctionalités"
+    - title: "Fonctionnalités"
       section: features
-    - title: "A propos"
-      section: about
+    - title: "Presentation"
+      url: presentation/index.html
     - title: "Timeline"
       section: timeline
     - title: "Equipe"
@@ -50,29 +48,5 @@ fr: &DEFAULT_FR
       section: clients
     - title: "Contact"
       section: contact
-    - title: "FusionInventory"
-      url: https://fusioninventory.org/
 fr-FR:
   <<: *DEFAULT_FR
-
-
-# Spanish
-# -------
-es: &DEFAULT_ES
-  nav:
-    - title: "Servicios"
-      section: servicios
-    - title: "Sobre Nosotros"
-      section: nosotros
-    - title: "Cronología"
-      section: cronologia
-    - title: "Equipo"
-      section: equipo
-    - title: "Contáctenos"
-      section: contacto
-    - title: "Fuente de la plantilla"
-      url: https://github.com/raviriley/agency-jekyll-theme/
-es-ES:
-  <<: *DEFAULT_ES
-es-CO:
-  <<: *DEFAULT_ES

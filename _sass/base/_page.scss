@@ -69,3 +69,11 @@ img::selection {
 img::-moz-selection {
   background: transparent;
 }
+
+.container {
+  max-width: 1400px !important;
+}
+
+.ml-auto, .mx-auto {
+  margin-right: auto !important;
+}

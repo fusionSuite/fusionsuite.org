@@ -13,8 +13,8 @@
         <i class="fas fa-bars"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav text-uppercase ml-auto">
-        {% for link in site.data.navigation[site.locale].nav %}
+        <ul class="navbar-nav ml-auto">
+        {% for link in site.data.navigation[page.lang].nav %}
           <li class="nav-item">
             {%- if link.url -%}
               <a class="nav-link js-scroll-trigger" href="{{ link.url }}">{{ link.title }}</a>
@@ -25,6 +25,16 @@
             {%- endif -%}
           </li>
         {% endfor %}
+          <li class="nav-item">
+            <a class="nav-flag js-scroll-trigger" href="index.html">
+              <img src="assets/img/locale/en.png">
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-flag js-scroll-trigger" href="index.fr.html">
+              <img src="assets/img/locale/fr.png">
+            </a>
+          </li>
         </ul>
       </div>
     </div>
@@ -35,14 +45,14 @@
   <header class="masthead">
     <div class="container">
       <div class="intro-text">
-	  {%- if site.data.sitetext[site.locale].header.title -%}
-        <div class="intro-lead-in">{{ site.data.sitetext[site.locale].header.title | markdownify }}</div>
+	  {%- if site.data.sitetext[page.lang].header.title -%}
+        <div class="intro-lead-in">{{ site.data.sitetext[page.lang].header.title | markdownify }}</div>
 	  {%- endif -%}
-	  {%- if site.data.sitetext[site.locale].header.text -%}
-        <div class="intro-heading text-uppercase">{{ site.data.sitetext[site.locale].header.text | markdownify }}</div>
+	  {%- if site.data.sitetext[page.lang].header.text -%}
+        <div class="intro-heading text-uppercase">{{ site.data.sitetext[page.lang].header.text | markdownify }}</div>
 	  {%- endif -%}
-	  {%- if site.data.sitetext[site.locale].header.button -%}
-        <a class="btn-header btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext[site.locale].header.buttonlink }}">{{ site.data.sitetext[site.locale].header.button }}</a>
+	  {%- if site.data.sitetext[page.lang].header.button -%}
+        <a class="btn-header btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext[page.lang].header.buttonlink }}">{{ site.data.sitetext[page.lang].header.button }}</a>
 	  {%- endif -%}
       </div>
     </div>

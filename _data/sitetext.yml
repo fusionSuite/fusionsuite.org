@@ -5,103 +5,117 @@
 # locale: "en-US"  [YOUR PREFERRED LOCALE]
 #
 # How to use:
-# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
+# {{ site.data.ui-text[page.lang].<var_name> | default: 'text' }}
 
 # English (default)
 # -----------------
 en: &DEFAULT_EN
   header:
     title: Welcome to FusionSuite!
-    text: The power of assets management <br>& IT service management
+    text: The power of IT service management
     button: Tell Me More
     buttonlink: "#features"
 
-  services:
+  features:
     title: "Features"
-    text: "Lorem ipsum"
+    text: "FusionSuite is a software can help you to manage assets and your IT service."
     section: features
     list:
-      - title: "Free software"
-        desc: "FusionSuite is a free software with an open project management."
-        icon: fab fa-osi #find more at https://fontawesome.com/icons
+      - title: "ITSM"
+        desc: "Incident, request, problem, change, knowledge..."
+        icon: fas fa-user-check
+      - title: "Assets management"
+        desc: "Manage the IT assets or the non IT assets."
+        icon: fas fa-network-wired
+      - title: "Dynamic items"
+        desc: "Create dynamic items, with properties you want. It's flexible"
+        icon: fas fa-tools
+      - title: "Rules"
+        desc: "Rules for rewrite fields.<br>Rules for send notifications."
+        icon: fas fa-cogs
       - title: "Responsive"
         desc: "FusionSuite has a web interface with responsive design: adapt to the screen of the device."
         icon: fas fa-mobile-alt
-      - title: "REST API"
-        desc: "The backend offer a standard REST API and documented. Very good to integrated to other projects."
-        icon: fab fa-dev
-      - title: "Modern"
-        desc: "Built with powerfull technologies (Ionic/Angular, Slim/Eloquent), to ensure modern features and compatibility."
-        icon: fas fa-certificate
-      - title: "Databases"
-        desc: "Compatible MySQL, MariaDB, SQLite and Microsoft SQL Server."
-        icon: fas fa-database
-      - title: "Contributions welcome"
-        desc: "The contributions from the community are welcome on our [github](https://github.com/fusionSuite)."
-        icon: fab fa-github
       - title: "Works with FusionInventory"
         desc: "The backend has FusionInventory server code and works with FusionInventory agent."
         icon: fas fa-heart
-      - title: "Chat with us<br>Chat between users"
-        desc: "Come chat with the FusionSuite team and with others users on our [Discord server](https://discord.gg/Kj72FwAKTC)."
-        icon: fas fa-comments
+      - title: "REST API"
+        desc: "The backend offer a standard REST API and documented. Very good to integrated to other projects."
+        icon: fab fa-dev
+      - title: "Databases"
+        desc: "Compatible MySQL, MariaDB, SQLite and Microsoft SQL Server."
+        icon: fas fa-database
+      - title: "Free software"
+        desc: "FusionSuite is a free software with an open project management."
+        icon: fab fa-osi #find more at https://fontawesome.com/icons
+      - title: "Modern"
+        desc: "Built with powerfull technologies (Ionic/Angular, Slim/Eloquent), to ensure modern features and compatibility."
+        icon: fas fa-certificate
       - title: "Secured"
         desc: "Code, data and server security is a priority."
         icon: fas fa-shield-alt
       - title: "Performances"
         desc: "The application is fast, we need this!"
         icon: fas fa-fighter-jet
+      - title: "Contributions welcome"
+        desc: "The contributions from the community are welcome on our [github](https://github.com/fusionSuite)."
+        icon: fab fa-github
+      - title: "Chat with us<br>Chat between users"
+        desc: "Come chat with the FusionSuite team and with others users on our [Discord server](https://discord.gg/Kj72FwAKTC)."
+        icon: fas fa-comments
 
   timeline:
     title: "Timeline"
-    text: "Lorem ipsum timeline"
+    text: " "
     section: timeline
     # left is the default
     #start_align: "left"
     events:
-      - title: "Announcement of the project"
-        year: "2022 January"
+      - title: "Presentation of the project"
+        year: "January 2022"
         desc: "The project is revealed to the world. YEAH!"
-        image: assets/img/timeline/1.jpg
+        # image: assets/img/timeline/1.jpg
         alt: 
         align: right
-      - title: "POC is good !"
-        year: "2021 December"
+      - title: "POC is good!"
+        year: "December 2021"
         desc: "The features code tested and the performances passes the validation to continue the project.<br>Creation of the logo and prepare the announcement."
-        image: assets/img/timeline/2.jpg
+        # image: assets/img/timeline/2.jpg
         alt: 
         align: left
       - title: "Enhance performances of the POC"
-        year: "2021 Septembre"
-        desc: "Very bad performances detected, many modifications & optimisations begins in the code to be more efficient."
-        image: assets/img/timeline/3.jpg
+        year: "September 2021"
+        desc: "Very bad performances detected, many modifications & optimizations begins in the code to be more efficient."
+        # image: assets/img/timeline/3.jpg
         alt: 
         align: right
       - title: "Specifications"
-        year: "2020 November"
-        desc: "Think about features and write specifications of the application."
-        image: assets/img/timeline/2.jpg
+        year: "November 2020"
+        desc: "Think about features and begin to write the specifications."
+        # image: assets/img/timeline/2.jpg
         alt: 
         align: left
-      - title: "POC launched"
-        year: "2020 March"
+      - title: "Creation of the POC"
+        year: "March 2020"
         desc: "Begin of the POC after GLPI has pushed out the last community developers."
-        image: assets/img/timeline/4.jpg
+        # image: assets/img/timeline/4.jpg
         alt:
         # you can enforce the alignment
         align: right
     end: "Our <br> great <br> story!"
 
-  about:
-    title: "About Us"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
-    section: about
+  presentation:
+    section: presentation
+    title: "Presentation of FusionSuite"
+    text: "Go to the slides of the project"
+    url: 'presentation/index.html'
 
   clients:
     section: clients
     max-height: 100px
     horizontal-scrolling: "" #"yes/no"
+    title: Partners
+    text: List of companies contributing to the project.<br>They have the expertise you might need on FusionSuite!
     list:
       - title: "DCS Easyware"
         url: https://github.com/raviriley/agency-jekyll-theme
@@ -138,18 +152,13 @@ en: &DEFAULT_EN
 
   contact:
     title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
-    section: contact
-    name: "Name*"
-    name-validation: "Please enter your name."
-    email: "Email*"
-    email-validation: "Please enter your email address."
-    phone: "Phone Number"
-    phone-validation: "Please enter your phone number."
-    message: "Message*"
-    message-validation: "Please enter a message."
-    subject: "Contact Form Submission"
-    submit: "Send Message"
+    text: "Several channels to contact us "
+    items:
+      - url: '#team'
+        icon: "fas fa-users"
+      - url: https://discord.gg/Kj72FwAKTC
+        icon: "fab fa-discord"
+
 
   footer:
     legal: "Privacy Policy"
@@ -174,96 +183,110 @@ en-AU:
 fr: &DEFAULT_FR
   header:
     title: Bienvenue sur FusionSuite!
-    text: The power of assets management <br>& IT service management
+    text: La puissance de la <br>gestion des services informatiques 
     button: M'en dire plus
     buttonlink: "#features"
 
-  services:
-    title: "Fonctionalités"
-    text: "Lorem ipsum"
+  features:
+    title: "Fonctionnalités"
+    text: "FusionSuite est un logiciel qui vous permet de gérer vos actifs et votre service informatique."
     section: features
     list:
-      - title: "Logiciel libre"
-        desc: "FusionSuite is a free software with an open project management."
-        icon: fab fa-osi #find more at https://fontawesome.com/icons
+      - title: "ITSM"
+        desc: "Incident, demande, problème, changement, connaissance..."
+        icon: fas fa-user-check
+      - title: "Gestion des actifs"
+        desc: "Gestion des actifs informatiques ou non informatiques."
+        icon: fas fa-network-wired
+      - title: "Items dynamiques"
+        desc: "Création d'items dynamiques, avec les propriétés que vous souhaitez. C'est souple"
+        icon: fas fa-tools
+      - title: "Règles"
+        desc: "Règles pour modifier des champs.<br>Règles pour envoyer des notifications."
+        icon: fas fa-cogs
       - title: "Responsive"
-        desc: "FusionSuite has a web interface with responsive design: adapt to the screen of the device."
+        desc: "FusionSuite a une interface web avec un design responsive : il s'adapte à l'écran de l'appareil."
         icon: fas fa-mobile-alt
-      - title: "REST API"
-        desc: "The backend offer a standard REST API and documented. Very good to integrated to other projects."
-        icon: fab fa-dev
-      - title: "Modern"
-        desc: "Built with powerfull technologies (Ionic/Angular, Slim/Eloquent), to ensure modern features and compatibility."
-        icon: fas fa-certificate
-      - title: "Databases"
-        desc: "Compatible MySQL, MariaDB, SQLite and Microsoft SQL Server."
-        icon: fas fa-database
-      - title: "Contributions welcome"
-        desc: "The contributions from the community are welcome on our [github](https://github.com/fusionSuite)."
-        icon: fab fa-github
-      - title: "Works with FusionInventory"
-        desc: "The backend has FusionInventory server code and works with FusionInventory agent."
+      - title: "Fonctionne avec FusionInventory"
+        desc: "Le backend contient du code de serveur FusionInventory et fonctionne avec l'agent FusionInventory."
         icon: fas fa-heart
-      - title: "Chat with us<br>Chat between users"
-        desc: "Come chat with the FusionSuite team and with others users on our [Discord server](https://discord.gg/Kj72FwAKTC)."
-        icon: fas fa-comments
-      - title: "Secured"
-        desc: "Code, data and server security is a priority."
+      - title: "API REST"
+        desc: "Le backend offre une API REST standard et documentée. Très simple à intégrer à d'autres projets."
+        icon: fab fa-dev
+      - title: "Bases de données"
+        desc: "Compatible avec MySQL, MariaDB, SQLite et Microsoft SQL Server."
+        icon: fas fa-database
+      - title: "Logiciel libre"
+        desc: "FusionSuite est un logiciel libre et la gestion du projet est ouverte."
+        icon: fab fa-osi #find more at https://fontawesome.com/icons
+      - title: "Moderne"
+        desc: "Construit avec des technologies puissantes (Ionic/Angular, Slim/Eloquent), afin d'assurer des fonctionnalités modernes et une certaine compatibilité."
+        icon: fas fa-certificate
+      - title: "Securisé"
+        desc: "Le code, les données et la sécurité des données est une priorité."
         icon: fas fa-shield-alt
       - title: "Performances"
-        desc: "The application is fast, we need this!"
+        desc: "L'application est rapide, on en a besoin!"
         icon: fas fa-fighter-jet
+      - title: "Les contributions sont les bienvenues"
+        desc: "Les contributions provenant de la communauté sont les bienvenues sur notre [github](https://github.com/fusionSuite)."
+        icon: fab fa-github
+      - title: "Echangez avec nous<br>Echangez entre utilisateurs"
+        desc: "Venez échangez avec l'équipe de FusionSuite ainsi qu'avec d'autres utilisateurs sur notre [serveur Discord](https://discord.gg/Kj72FwAKTC)."
+        icon: fas fa-comments
 
   timeline:
     title: "Timeline"
-    text: "Lorem ipsum timeline"
+    text: " "
     section: timeline
     # left is the default
     #start_align: "left"
     events:
-      - title: "Announcement of the project"
-        year: "2022 January"
-        desc: "The project is revealed to the world. YEAH!"
-        image: assets/img/timeline/1.jpg
+      - title: "Présentation du project"
+        year: "Janvier 2022"
+        desc: "The projet est dévoilé au monde. YEAH!"
+        # image: assets/img/timeline/1.jpg
         alt: 
         align: right
-      - title: "POC is good !"
-        year: "2021 December"
-        desc: "The features code tested and the performances passes the validation to continue the project.<br>Creation of the logo and prepare the announcement."
-        image: assets/img/timeline/2.jpg
+      - title: "Le POC est validé!"
+        year: "Décembre 2021"
+        desc: "Le code des fonctionnalités est testé et les performances passent la validation pour continuer le projet.<br>Création du logo et préparation de l'annonce."
+        # image: assets/img/timeline/2.jpg
         alt: 
         align: left
-      - title: "Enhance performances of the POC"
-        year: "2021 Septembre"
-        desc: "Very bad performances detected, many modifications & optimisations begins in the code to be more efficient."
-        image: assets/img/timeline/3.jpg
+      - title: "Amélioration des performances du POC"
+        year: "Septembre 2021"
+        desc: "Très mauvaises performances détectées, plusieurs modifications et optimisations commencent dans le code afin d'être plus efficace."
+        # image: assets/img/timeline/3.jpg
         alt: 
         align: right
-      - title: "Specifications"
-        year: "2020 November"
-        desc: "Think about features and write specifications of the application."
-        image: assets/img/timeline/2.jpg
+      - title: "Spécifications"
+        year: "Novembre 2020"
+        desc: "Réflexions sur les fonctionnalités et début de la rédaction des spécifications."
+        # image: assets/img/timeline/2.jpg
         alt: 
         align: left
-      - title: "POC launched"
-        year: "2020 March"
-        desc: "Begin of the POC after GLPI has pushed out the last community developers."
-        image: assets/img/timeline/4.jpg
+      - title: "Création du POC"
+        year: "Mars 2020"
+        desc: "Début du POC après que GLPI ait poussé dehors les derniers développeurs communautaires."
+        # image: assets/img/timeline/4.jpg
         alt:
         # you can enforce the alignment
         align: right
-    end: "Our <br> great <br> story!"
+    end: "Notre <br> grande <br> histoire!"
 
-  about:
-    title: "About Us"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
-    section: about
+  presentation:
+    section: presentation
+    title: "Présentation de FusionSuite"
+    text: "Aller voir les slides du projet"
+    url: 'presentation/index.html'
 
   clients:
     section: clients
     max-height: 100px
     horizontal-scrolling: "" #"yes/no"
+    title: Partenaires
+    text: Liste des entreprises qui contribuent au projet.<br>Elles ont l'expertise que vous pourriez avoir besoin sur FusionSuite!
     list:
       - title: "DCS Easyware"
         url: https://github.com/raviriley/agency-jekyll-theme
@@ -275,13 +298,13 @@ fr: &DEFAULT_FR
         desc: "La SCOP Probesys est une structure à taille humaine, dynamique, réactive et participative.<br>C'est une structure spécialisée en solutions libres et open source qui accompagne tout type de structures dans l'ensemble de leurs projets informatiques : Administration système et réseaux, développement web ou applicatif."
 
   team:
-    title: "THE FUSIONSUITE TEAM"
-    text: "Let us introduce you to the people who make the FusionSuite project a reality."
+    title: "L'EQUIPE DE FUSIONSUITE"
+    text: "Laissez-nous introduire les personnes qui font du projet FusionSuite une réalité."
     subtext: 
     section: team
     people:
       - name: "David Durieux"
-        role: "Project Leader"
+        role: "Chef du projet"
         image: assets/img/team/ddurieux.jpg
         social:
           - url: https://twitter.com/ddurieux_
@@ -291,30 +314,25 @@ fr: &DEFAULT_FR
           - url: https://david.durieux.family
             icon: fas fa-blog
 
-      - name: "Perhaps you!"
-        role: "Contact us to contribute!"
+      - name: "Peut être vous!"
+        role: "Contactez-nous pour contribuer!"
         image: assets/img/team/you.png
         social:
           - url: https://discord.gg/Kj72FwAKTC
             icon: "fab fa-discord"
 
   contact:
-    title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
-    section: contact
-    name: "Name*"
-    name-validation: "Please enter your name."
-    email: "Email*"
-    email-validation: "Please enter your email address."
-    phone: "Phone Number"
-    phone-validation: "Please enter your phone number."
-    message: "Message*"
-    message-validation: "Please enter a message."
-    subject: "Contact Form Submission"
-    submit: "Send Message"
+    title: "Contactez-nous"
+    text: "Plusieurs canaux pour nous contacter "
+    items:
+      - url: '#team'
+        icon: "fas fa-users"
+      - url: https://discord.gg/Kj72FwAKTC
+        icon: "fab fa-discord"
+
 
   footer:
-    legal: "Privacy Policy"
+    legal: "Politique de confidentialité"
     social:
       - url: https://twitter.com/FusionSuite
         icon: "fab fa-twitter"
@@ -322,155 +340,5 @@ fr: &DEFAULT_FR
         icon: "fab fa-github"
       - url: https://discord.gg/Kj72FwAKTC
         icon: "fab fa-discord"
-
 fr-FR:
   <<: *DEFAULT_FR
-
-# Spanish
-# -------
-es: &DEFAULT_ES
-  header:
-    title: ¡Bienvenido a nuestro Estudio!
-    text: Es un placer conocerle
-    button: Ver más
-    buttonlink: "#servicios"
-
-  services:
-    title: "Servicios"
-    text: "Lorem ipsum"
-    section: servicios
-    list:
-      - title: "Comercio Electrónico"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Diseño Responsivo"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Su descripción aquí, soporte completo de **Markdown**"
-        icon: fab fa-markdown
-
-  timeline:
-    title: "Cronología"
-    text: "Lorem ipsum timeline"
-    section: cronologia
-    # left is the default
-    #start_align: "left"
-    events:
-      - title: "Nuestro Humilde Comienzo"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
-        alt:
-      - title: "Una Agencia nace"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
-        alt:
-      - title: "La plantilla Jekyll es creada"
-        year: "2019"
-        desc: "Ravi Riley convirtió Agency, una plantilla basada en Bootstrap, en una plantilla de Jekyll. La plantilla Jekyll puede ser instalada commo una gema de Ruby (Ruby gem) o remotamente. Para más información, visite la documentación."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Título"
-        year: "2009-2011"
-        desc: "Su descripción aquí, **Markdown** es soportado completamente."
-        image: assets/img/timeline/4.jpg
-        alt:
-        # you can enforce the alignment
-        align: right
-    end: "¡Se parte <br> de Nuestra <br> Historia!"
-
-  about:
-    title: "Sobre nosotros"
-    text: "nuestra historia"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
-    section: nosotros
-
-  clients:
-    section: clientes
-    max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
-    list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
-
-  team:
-    title: "NUESTRO INCREÍBLE EQUIPO"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
-    section: equipo
-    people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-
-  contact:
-    title: "Contáctenos"
-    text: "Lorem ipsum or call 123456789"
-    section: contacto
-    name: "Nombre*"
-    name-validation: "Por favor ingrese su nombre."
-    email: "Correo Electrónico*"
-    email-validation: "Por favor ingrese su correo electrónico."
-    phone: "Número Telefónico*"
-    phone-validation: "Por favor ingrese su número telefónico."
-    message: "Mensaje*"
-    message-validation: "Por favor escriba un mensaje."
-    subject: "Envío del formulario de contacto"
-    submit: "Enviar Mensaje"
-
-  footer:
-    legal: "Política de Privacidad"
-    social:
-      - url: https://twitter.com
-        icon: "fab fa-twitter"
-      - url: https://facebook.com
-        icon: "fab fa-facebook-f"
-      - url: https://linkedin.com
-        icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
-        icon: "fab fa-github"
-      - url: https://instagram.com
-        icon: "fab fa-instagram"
-es-ES:
-  <<: *DEFAULT_ES
-es-CO:
-  <<: *DEFAULT_ES

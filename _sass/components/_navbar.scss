@@ -24,8 +24,8 @@
   .navbar-nav {
     .nav-item {
       .nav-link {
-        font-size: 90%;
-        font-weight: 800;
+        font-size: 18px;
+        font-weight: 600;
         padding: 0.75em 0;
         letter-spacing: 1px;
         color: white;
@@ -34,6 +34,9 @@
         &:hover {
           color: $primary;
         }
+      }
+      .nav-flag {
+        padding: 0.75em 0;
       }
     }
   }
@@ -57,6 +60,9 @@
       .nav-item {
         .nav-link {
           padding: 1.1em 1em !important;
+        }
+        .nav-flag {
+          padding: 1.1em 0.2em !important;
         }
       }
     }
