@@ -13,8 +13,10 @@ en: &DEFAULT_EN
   nav:
     - title: "Features"
       section: features
+    - title: "News"
+      url: /news.html
     - title: "Presentation"
-      url: presentation/index.html
+      url: /presentation/index.html
     - title: "Timeline"
       section: timeline
     - title: "Team"
@@ -38,8 +40,10 @@ fr: &DEFAULT_FR
   nav:
     - title: "Fonctionnalités"
       section: features
+    - title: "Actualités"
+      url: /news.fr.html
     - title: "Presentation"
-      url: presentation/index.html
+      url: /presentation/index.html
     - title: "Timeline"
       section: timeline
     - title: "Equipe"

@@ -22,7 +22,7 @@ email      : david@durieux.family #this is also the email contact forms will go 
 description: "FusionSuite project - free software - Assets management and IT service management"
 author     : David Durieux
 logo:     #optional, defaults to site title
-  path: assets\img\logo_fusionsuite.png
+  path: \assets\img\logo_fusionsuite.png
   height: 60 #height in px, defaults to 52px
 
 locale: "en-US" # See available languages in _data/sitetext.yml

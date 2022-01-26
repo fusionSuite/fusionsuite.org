@@ -169,6 +169,8 @@ en: &DEFAULT_EN
         icon: "fab fa-github"
       - url: https://discord.gg/Kj72FwAKTC
         icon: "fab fa-discord"
+      - url: https://www.youtube.com/channel/UClK5zin1sdONo2_P2fVuFKg
+        icon: "fab fa-youtube"
 en-US:
   <<: *DEFAULT_EN
 en-CA:
@@ -340,5 +342,7 @@ fr: &DEFAULT_FR
         icon: "fab fa-github"
       - url: https://discord.gg/Kj72FwAKTC
         icon: "fab fa-discord"
+      - url: https://www.youtube.com/channel/UClK5zin1sdONo2_P2fVuFKg
+        icon: "fab fa-youtube"
 fr-FR:
   <<: *DEFAULT_FR
