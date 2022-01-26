@@ -2,7 +2,7 @@
 <nav
   class="navbar navbar-expand-lg navbar-dark fixed-top"
   id="mainNav"
-  style="background-color: #495057"
+  style="background-color: #68d3ff"
 >
   <div class="container">
     <a class="navbar-brand js-scroll-trigger" href="{{ site.baseurl }}">
@@ -25,7 +25,7 @@
       Menu<i class="fas fa-bars"></i>
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav text-uppercase ml-auto">
+      <ul class="navbar-nav ml-auto">
         {%- for link in site.data.navigation[page.lang].nav -%}
         <li class="nav-item">
           {%- if link.url -%}
@@ -35,7 +35,7 @@
           {%- else if link.section -%}
           <a
             class="nav-link js-scroll-trigger"
-            href="{{ site.baseurl }}/#{{ link.section }}"
+            href="/#{{ link.section }}"
             >{{ link.title }}</a
           >
           {%- else -%}
@@ -43,6 +43,16 @@
           {%- endif -%}
         </li>
         {%- endfor -%}
+        <li class="nav-item">
+          <a class="nav-flag js-scroll-trigger" href="/index.html">
+            <img src="/assets/img/locale/en.png">
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-flag js-scroll-trigger" href="/index.fr.html">
+            <img src="/assets/img/locale/fr.png">
+          </a>
+        </li>
       </ul>
     </div>
   </div>

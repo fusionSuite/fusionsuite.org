@@ -4,7 +4,11 @@ layout: default
 
 <div style="background-color: #68d3ff; height: 200px;" class="fixed-top">
   <div style="padding-top: 120px;max-width: 1370px;margin-right: auto; margin-left: auto;">
-    <h1 style="color: white;text-align: center;"><i class="fas fa-bullhorn"></i> {{ page.title }}</h1>
+    <h1 style="color: white;text-align: center;"><i class="fas fa-newspaper"></i> {{ page.title }}</h1>
+    <div style="text-align: right;color: white;margin-right: 180px;"><i>
+      {% if page.lang == "en" %}The {% endif %}
+      {% if page.lang == "fr" %}Le {% endif %}
+      {{ page.date | date_to_long_string }}</i></div>
   </div>
 </div>
 
@@ -17,7 +21,7 @@ document.getElementById("page-top").className="bg-light";
 {% endif %}
 
 <div class="container" id="pagecontainer" style="padding-bottom: 200px;padding-top: 260px !important; min-height: 900px;">
-{{ content }}
+  {{ content }}
 </div>
 
 {% include contact.html %}
