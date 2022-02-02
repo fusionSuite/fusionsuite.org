@@ -11,7 +11,7 @@ Après plusieurs mois de travail sur le POC, le projet FusionSuite est né à la
 
 Le site web a été officialisé, les dépôts [github](https://github.com/fusionSuite/) ont été rendus publiques.
 
-Je suis (David Durieux) très heureux d'annoncer et d eprésenter ce projet et de créer une communauté autour de ce logiciel libre.
+Je suis (David Durieux) très heureux d'annoncer et de présenter ce projet et de créer une communauté autour de ce logiciel libre.
 
 Toutes les ressources sont sur le site (directement ou à travers des liens): dépôts de code, slides de la présentation, nous contacter (serveur Discord)...
 
