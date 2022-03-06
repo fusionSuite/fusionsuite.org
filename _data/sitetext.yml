@@ -143,6 +143,22 @@ en: &DEFAULT_EN
           - url: https://david.durieux.family
             icon: fas fa-blog
 
+      - name: "Maël Jeuffrard"
+        role: "Documentation leader"
+        image: assets/img/team/you.png
+        social:
+          - url: https://www.linkedin.com/in/ma%C3%ABl-jeuffrard-31b2311a1/
+            icon: fab fa-linkedin-in
+
+      - name: "Lauent Lienhard"
+        role: "Docker making & documentation writer"
+        image: assets/img/team/llienhard.png
+        social:
+          - url: https://twitter.com/IronTUX
+            icon: fab fa-twitter
+          - url: https://www.linkedin.com/in/laurent-lienhard-61680528/
+            icon: fab fa-linkedin-in
+
       - name: "Perhaps you!"
         role: "Contact us to contribute!"
         image: assets/img/team/you.png
@@ -315,6 +331,22 @@ fr: &DEFAULT_FR
             icon: fab fa-linkedin-in
           - url: https://david.durieux.family
             icon: fas fa-blog
+
+      - name: "Maël Jeuffrard"
+        role: "Chef de la documentation"
+        image: assets/img/team/you.png
+        social:
+          - url: https://www.linkedin.com/in/ma%C3%ABl-jeuffrard-31b2311a1/
+            icon: fab fa-linkedin-in
+
+      - name: "Lauent Lienhard"
+        role: "Fabrication docker & rédacteur documentation"
+        image: assets/img/team/llienhard.png
+        social:
+          - url: https://twitter.com/IronTUX
+            icon: fab fa-twitter
+          - url: https://www.linkedin.com/in/laurent-lienhard-61680528/
+            icon: fab fa-linkedin-in
 
       - name: "Peut être vous!"
         role: "Contactez-nous pour contribuer!"
