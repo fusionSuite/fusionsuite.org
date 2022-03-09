@@ -150,7 +150,7 @@ en: &DEFAULT_EN
           - url: https://www.linkedin.com/in/ma%C3%ABl-jeuffrard-31b2311a1/
             icon: fab fa-linkedin-in
 
-      - name: "Lauent Lienhard"
+      - name: "Laurent Lienhard"
         role: "Docker making & documentation writer"
         image: assets/img/team/llienhard.png
         social:
@@ -339,7 +339,7 @@ fr: &DEFAULT_FR
           - url: https://www.linkedin.com/in/ma%C3%ABl-jeuffrard-31b2311a1/
             icon: fab fa-linkedin-in
 
-      - name: "Lauent Lienhard"
+      - name: "Laurent Lienhard"
         role: "Fabrication docker & rédacteur documentation"
         image: assets/img/team/llienhard.png
         social:
