@@ -16,6 +16,10 @@ jobs:
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
           restore-keys: |
             ${{ runner.os }}-gems-
+      - name: install bundle
+        run: sudo gem install bundler
+      - name: install dep gem
+        run: bundle install
       - name: build
         run: bundle exec jekyll build
       - name: Deploy with rsync
@@ -27,7 +31,7 @@ jobs:
           options: ''
           ssh_options: ''
           src: '_site/'
-          dest: '${{ secrets.SSH_DOCUMENTATION_USER }}@${{ secrets.SSH_HOST }}:${{ secrets.DOCUMENTATION_PATH }}'
+          dest: '${{ secrets.SSH_DOCUMENTATION_USER }}@${{ secrets.SSH_HOST }}:${{ secrets.WEBSITE_PATH }}'
 
       - name: Display status from deploy
         run: echo "${{ steps.deploy.outputs.status }}"
