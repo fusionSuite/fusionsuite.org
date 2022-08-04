@@ -31,7 +31,7 @@ I had defined do a first test with users in May, but with the delay of the code,
 Like I said in last monthly report, our partner *Probesys* searched somebody to develop on the project.
 
 Good news, they find him and it's Marien.
-Marien works for many years on [freshrss](https://freshrss.org/)
+Marien works for many years on [flus](https://flus.fr/).
 
 Welcome to him in the project and he have beginning to help us since June.
 

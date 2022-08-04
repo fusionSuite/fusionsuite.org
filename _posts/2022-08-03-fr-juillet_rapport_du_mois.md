@@ -31,7 +31,7 @@ J'avais défini les premiers tests utilisateurs en mai, mais avec le délai du c
 Comme mentionné sur le dernier rapport du mois, notre partenaire *Probesys* cherchait quelqu'un pour développer sur le projet.
 
 Bonne nouvelle, ils ont trouvé et il se nomme Marien.
-Marien travaille depuis plusieurs années sur [freshrss](https://freshrss.org/)
+Marien travaille depuis plusieurs années sur [flus](https://flus.fr/).
 
 Bienvenue à lui au sein du projet et il a commencé à nous aider depuis juin.
 
