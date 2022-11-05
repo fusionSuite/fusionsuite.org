@@ -121,10 +121,6 @@ en: &DEFAULT_EN
         url: https://github.com/raviriley/agency-jekyll-theme
         logo: assets/img/clients/partner_dcs.png
         desc: "Spécialiste du support, de la gestion des environnements utilisateurs et de la gestion des infrastructures (production et exploitation), DCS poursuit sa stratégie en développant notamment l'intégration de solutions afin d'augmenter la valeur de ses prestations et répondre aux enjeux de ses clients."
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/partner_probesys.png
-        desc: "La SCOP Probesys est une structure à taille humaine, dynamique, réactive et participative.<br>C'est une structure spécialisée en solutions libres et open source qui accompagne tout type de structures dans l'ensemble de leurs projets informatiques : Administration système et réseaux, développement web ou applicatif."
 
   team:
     title: "THE FUSIONSUITE TEAM"
@@ -310,10 +306,6 @@ fr: &DEFAULT_FR
         url: https://github.com/raviriley/agency-jekyll-theme
         logo: assets/img/clients/partner_dcs.png
         desc: "Spécialiste du support, de la gestion des environnements utilisateurs et de la gestion des infrastructures (production et exploitation), DCS poursuit sa stratégie en développant notamment l'intégration de solutions afin d'augmenter la valeur de ses prestations et répondre aux enjeux de ses clients."
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/partner_probesys.png
-        desc: "La SCOP Probesys est une structure à taille humaine, dynamique, réactive et participative.<br>C'est une structure spécialisée en solutions libres et open source qui accompagne tout type de structures dans l'ensemble de leurs projets informatiques : Administration système et réseaux, développement web ou applicatif."
 
   team:
     title: "L'EQUIPE DE FUSIONSUITE"
