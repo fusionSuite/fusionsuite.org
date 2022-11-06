@@ -2,7 +2,7 @@
 layout: post
 title: September and October 2022 - Monthly report
 categories: news
-language: en
+lang: en
 ---
 
 Here is the report for September and October combined.
