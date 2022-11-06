@@ -13,7 +13,7 @@ Voici le rapport de septembre et octobre réunis.
 
 Je rassemble septembre et octobre dans un seul rapport, les 2 mois ont été assez chargés.
 
-Parmis les gros évènements, on peut citer le *retrait de la société Probesys* du projet, mon *COBID qui m'a cloué au lit un bon moment*, 
+Parmis les gros évènements, on peut citer le *retrait de la société Probesys* du projet, mon *COVID qui m'a cloué au lit un bon moment*, 
 le code du backend et *l'avancée du code de la gestion des tickets dans le frontend*.
 
 On va détailler tout ça dans la suite du rapport.
