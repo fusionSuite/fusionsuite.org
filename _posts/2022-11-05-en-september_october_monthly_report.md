@@ -52,7 +52,7 @@ I'm very happy to stream, it creates a pretty strong link with the community, do
 
 <br>
 
-# II.3. Project anniversary on January 12, 2022
+# II.3. Project anniversary on January 12, 2023
 
 The FusionSuite project will blow out its first candle on January 12th.
 
