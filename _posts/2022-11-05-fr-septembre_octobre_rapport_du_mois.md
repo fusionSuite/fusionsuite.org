@@ -52,7 +52,7 @@ Je suis très heureux de streamer, ça crée un lien assez fort avec la communau
 
 <br>
 
-# II.3. Anniversaire du projet le 12 Janvier 2022
+# II.3. Anniversaire du projet le 12 Janvier 2023
 
 Le projet FusionSuite soufflera sa première bougie le 12 Janvier prochain.
 
