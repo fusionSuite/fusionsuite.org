@@ -16,7 +16,7 @@ en: &DEFAULT_EN
     - title: "News"
       url: /news.html
     - title: "Presentation"
-      url: /presentation/index.html
+      section: presentation
     - title: "Timeline"
       section: timeline
     - title: "Team"
@@ -42,8 +42,8 @@ fr: &DEFAULT_FR
       section: features
     - title: "Actualités"
       url: /news.fr.html
-    - title: "Presentation"
-      url: /presentation/index.html
+    - title: "Présentation"
+      section: presentation
     - title: "Timeline"
       section: timeline
     - title: "Equipe"
