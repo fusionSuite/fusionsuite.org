@@ -71,7 +71,7 @@ en: &DEFAULT_EN
     # left is the default
     #start_align: "left"
     events:
-      - title: "Retrospective && roadmap 2023 of the project"
+      - title: "Retrospective && roadmap 2023"
         year: "January 2023"
         desc: "Presentation of the retrospective of 2022 and roadmap of 2023"
         # image: assets/img/timeline/1.jpg
@@ -115,7 +115,7 @@ en: &DEFAULT_EN
     list:
       - title: "Retrospective & roadmap 2023 (2023, January 12)"
         text: "Go to the slides of the project"
-        url: 'presentation/index.html'
+        url: 'presentation/2023-01/presentation.html'
       - title: "First presentation of FusionSuite (2022, January 12)"
         text: "Go to the slides of the project"
         url: 'presentation/index.html'
@@ -266,7 +266,7 @@ fr: &DEFAULT_FR
     # left is the default
     #start_align: "left"
     events:
-      - title: "Rétrospective && roadmap 2023 du projet"
+      - title: "Rétrospective && roadmap 2023"
         year: "Janvier 2023"
         desc: "Présentation de la rétrospective de 2022 et roadmap de 2023"
         # image: assets/img/timeline/1.jpg
@@ -310,7 +310,7 @@ fr: &DEFAULT_FR
     list:
       - title: "Rétrospective & roadmap 2023 (12 janvier 2023)"
         text: "Aller voir les slides du projet"
-        url: 'presentation/index.html'
+        url: 'presentation/2023-01/presentation.html'
       - title: "Première présentation de FusionSuite (12 janvier 2022)"
         text: "Aller voir les slides du projet"
         url: 'presentation/index.html'
