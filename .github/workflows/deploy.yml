@@ -19,7 +19,7 @@ jobs:
       - name: install bundle
         run: sudo gem install bundler
       - name: install dep gem
-        run: bundle install
+        run: sudo bundle install
       - name: build
         run: bundle exec jekyll build
       - name: Deploy with rsync
