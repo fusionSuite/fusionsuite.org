@@ -61,7 +61,7 @@ en: &DEFAULT_EN
         desc: "The contributions from the community are welcome on our [github](https://github.com/fusionSuite)."
         icon: fab fa-github
       - title: "Chat with us<br>Chat between users"
-        desc: "Come chat with the FusionSuite team and with others users on our [Discord server](https://discord.gg/Kj72FwAKTC)."
+        desc: "Come chat with the FusionSuite team and with others users on our [Discord server](https://discord.gg/KdR6dyzNUU)."
         icon: fas fa-comments
 
   timeline:
@@ -71,6 +71,12 @@ en: &DEFAULT_EN
     # left is the default
     #start_align: "left"
     events:
+      - title: "Retrospective && roadmap 2023 of the project"
+        year: "January 2023"
+        desc: "Presentation of the retrospective of 2022 and roadmap of 2023"
+        # image: assets/img/timeline/1.jpg
+        alt: 
+        align: left
       - title: "Presentation of the project"
         year: "January 2022"
         desc: "The project is revealed to the world. YEAH!"
@@ -106,9 +112,13 @@ en: &DEFAULT_EN
 
   presentation:
     section: presentation
-    title: "Presentation of FusionSuite"
-    text: "Go to the slides of the project"
-    url: 'presentation/index.html'
+    list:
+      - title: "Retrospective & roadmap 2023 (2023, January 12)"
+        text: "Go to the slides of the project"
+        url: 'presentation/index.html'
+      - title: "First presentation of FusionSuite (2022, January 12)"
+        text: "Go to the slides of the project"
+        url: 'presentation/index.html'
 
   clients:
     section: clients
@@ -159,7 +169,7 @@ en: &DEFAULT_EN
         role: "Contact us to contribute!"
         image: assets/img/team/you.png
         social:
-          - url: https://discord.gg/Kj72FwAKTC
+          - url: https://discord.gg/KdR6dyzNUU
             icon: "fab fa-discord"
 
   contact:
@@ -168,7 +178,7 @@ en: &DEFAULT_EN
     items:
       - url: '#team'
         icon: "fas fa-users"
-      - url: https://discord.gg/Kj72FwAKTC
+      - url: https://discord.gg/KdR6dyzNUU
         icon: "fab fa-discord"
 
 
@@ -179,7 +189,7 @@ en: &DEFAULT_EN
         icon: "fab fa-twitter"
       - url: https://github.com/fusionSuite
         icon: "fab fa-github"
-      - url: https://discord.gg/Kj72FwAKTC
+      - url: https://discord.gg/KdR6dyzNUU
         icon: "fab fa-discord"
       - url: https://www.youtube.com/channel/UClK5zin1sdONo2_P2fVuFKg
         icon: "fab fa-youtube"
@@ -246,7 +256,7 @@ fr: &DEFAULT_FR
         desc: "Les contributions provenant de la communauté sont les bienvenues sur notre [github](https://github.com/fusionSuite)."
         icon: fab fa-github
       - title: "Echangez avec nous<br>Echangez entre utilisateurs"
-        desc: "Venez échangez avec l'équipe de FusionSuite ainsi qu'avec d'autres utilisateurs sur notre [serveur Discord](https://discord.gg/Kj72FwAKTC)."
+        desc: "Venez échangez avec l'équipe de FusionSuite ainsi qu'avec d'autres utilisateurs sur notre [serveur Discord](https://discord.gg/KdR6dyzNUU)."
         icon: fas fa-comments
 
   timeline:
@@ -256,6 +266,12 @@ fr: &DEFAULT_FR
     # left is the default
     #start_align: "left"
     events:
+      - title: "Rétrospective && roadmap 2023 du projet"
+        year: "Janvier 2023"
+        desc: "Présentation de la rétrospective de 2022 et roadmap de 2023"
+        # image: assets/img/timeline/1.jpg
+        alt: 
+        align: left
       - title: "Présentation du project"
         year: "Janvier 2022"
         desc: "The projet est dévoilé au monde. YEAH!"
@@ -291,9 +307,13 @@ fr: &DEFAULT_FR
 
   presentation:
     section: presentation
-    title: "Présentation de FusionSuite"
-    text: "Aller voir les slides du projet"
-    url: 'presentation/index.html'
+    list:
+      - title: "Rétrospective & roadmap 2023 (12 janvier 2023)"
+        text: "Aller voir les slides du projet"
+        url: 'presentation/index.html'
+      - title: "Première présentation de FusionSuite (12 janvier 2022)"
+        text: "Aller voir les slides du projet"
+        url: 'presentation/index.html'
 
   clients:
     section: clients
@@ -344,7 +364,7 @@ fr: &DEFAULT_FR
         role: "Contactez-nous pour contribuer!"
         image: assets/img/team/you.png
         social:
-          - url: https://discord.gg/Kj72FwAKTC
+          - url: https://discord.gg/KdR6dyzNUU
             icon: "fab fa-discord"
 
   contact:
@@ -353,7 +373,7 @@ fr: &DEFAULT_FR
     items:
       - url: '#team'
         icon: "fas fa-users"
-      - url: https://discord.gg/Kj72FwAKTC
+      - url: https://discord.gg/KdR6dyzNUU
         icon: "fab fa-discord"
 
 
@@ -364,7 +384,7 @@ fr: &DEFAULT_FR
         icon: "fab fa-twitter"
       - url: https://github.com/fusionSuite
         icon: "fab fa-github"
-      - url: https://discord.gg/Kj72FwAKTC
+      - url: https://discord.gg/KdR6dyzNUU
         icon: "fab fa-discord"
       - url: https://www.youtube.com/channel/UClK5zin1sdONo2_P2fVuFKg
         icon: "fab fa-youtube"
