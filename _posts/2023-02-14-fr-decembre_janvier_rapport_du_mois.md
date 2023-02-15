@@ -97,12 +97,12 @@ Elle permet d'ajouter des propriétés et de les définir.
 
 Certains types requièrent d'avoir une timeline, comme les tickets de supports, la gestion des changements...
 
-Vous pouvoir avoir un aperçu de la version, qui est encore en développement :
+Vous pouvez avoir un aperçu de la version, qui est encore en développement :
 
 <img src="/assets/img/frontend_timeline_202302.png" width="1300">
 
 
-### III.2.b Gestion des types
+### III.2.c Gestion des types
 
 La gestion des types a été ajoutée afin de configurer l'affichage des items.
 
@@ -112,7 +112,7 @@ Il permet d'ajouter les propriétés souhaitées, les regrouper dans des section
 
 <br>
 
-### III.2.b Gestion des menus
+### III.2.d Gestion des menus
 
 Le menu a enfin été travaillé avec la gestion personnalisée.
 

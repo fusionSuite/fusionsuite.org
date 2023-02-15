@@ -102,7 +102,7 @@ You can get a preview of the version, which is still in development:
 <img src="/assets/img/frontend_timeline_202302.png" width="1300">
 
 
-### III.2.b Type management
+### III.2.c Type management
 
 Type management has been added to configure the display of items.
 
@@ -112,7 +112,7 @@ It allows you to add the desired properties, group them in sections, choose in w
 
 <br>
 
-### III.2.b Menu management
+### III.2.d Menu management
 
 The menu has finally been worked with personalized management.
 
