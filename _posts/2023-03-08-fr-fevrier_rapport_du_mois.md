@@ -89,6 +89,8 @@ Le serveur justement, **FusionSuite!!!** le code a débuté, l'inventaire est d�
 
 Le travail continue sur le format des données côté agent et dès que ça sera plus avancé (soit d'ici quelques jours), je vais pouvoir écrire les grosses parties de gestion de l'inventaire dans FusionSuite.
 
+[Le rapport du mois de février](https://fusioninventory.org/news/2023/03/08/february_monthly_report.html) vous donnera plus d'informations sur l'agent 3.0.0 de FusionInventory.
+
 <br>
 
 ## III.2 Frontend
