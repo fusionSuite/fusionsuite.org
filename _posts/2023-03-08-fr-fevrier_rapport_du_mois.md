@@ -61,7 +61,7 @@ Pour les idées d'affichages, en voici quelques-unes :
 
 ### III.1.b OpenTelemetry
 
-Dans le backend, et plus tard le frontend sera également inclut, OpenTelemetry a été mis en place.
+Dans le backend, OpenTelemetry a été mis en place. Il sera étendu plus tard au frontend.
 
 Grâce à ce système, les métriques pourront être envoyées dans un outil d'APM (Application Performance Monitoring) permettant de contrôler la bonne santé de FusionSuite en temps réel.
 
