@@ -58,7 +58,7 @@ Voici les retours, avec mes commentaires en italique :
 
 Plus lié à FusionInventory :
 
-* divers problèmes liés à Windows ont été reportés et corrigés
+* divers problèmes liés à l'agent sous Windows ont été reportés et corrigés
 * l'inventaire fonctionne partiellement dans FusionSuite
 * plusieurs problèmes de mapping de champs *- en cours d'intégration et quelques soucis dans les workflows, voir le chapitre plus loin -*
 
