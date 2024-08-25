@@ -6,4 +6,13 @@ gemspec
 # Performance-booster for watching directories on Windows
 gem "wdm", ">= 0.1.0" if Gem.win_platform?
 
-gem "jekyll-remote-theme"
+gem 'jekyll-remote-theme'
+# For FreeBSD
+# gem 'jekyll-sass-converter', '~> 2.2'
+
+#require 'rbconfig'
+if RbConfig::CONFIG['target_os'] =~ /(?i-mx:bsd|dragonfly)/
+   gem 'rb-kqueue', '>= 0.2'
+end
+
+gem 'webrick'
