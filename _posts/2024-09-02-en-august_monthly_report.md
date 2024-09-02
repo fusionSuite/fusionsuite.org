@@ -1,6 +1,6 @@
 ---
 layout: post
-title: August 2024 - Minthly report
+title: August 2024 - Monthly report
 categories: news
 lang: en
 ---
@@ -23,7 +23,7 @@ End-To-End (e2e) testing, crowdfunding...
 
 I spent a lot of time on it, I finalized it on August 31st.
 
-I am waiting for the validation (a matter of a few days normally) of kickstarter to launch it.
+I'm waiting for the validation (a matter of a few days normally) of kickstarter to launch it.
 
 **More information in a dedicated news, in a few days normally, for the launch**
 
